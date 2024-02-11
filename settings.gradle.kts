@@ -4,6 +4,7 @@ include(
     "playground-api",
     "playground-core",
     "playground-batch",
+    "playground-websocket",
 )
 
 pluginManagement {

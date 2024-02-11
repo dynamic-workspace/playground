@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class PlaygroundApiApplication
+class PlaygroundWebSocketApplication
 
 fun main(args: Array<String>) {
-    runApplication<PlaygroundApiApplication>(*args)
+    runApplication<PlaygroundWebSocketApplication>(*args)
 }
