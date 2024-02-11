@@ -19,7 +19,7 @@ class WebSocketConfig : WebSocketConfigurer {
                 val manager = WebSocketConnectionManager(
                     client,
                     BithumbSocketHandler(),
-                    "wss://api.upbit.com/websocket/v1"
+                    "wss://pubwss.bithumb.com/pub/ws"
                 )
                 manager.start()
             }
