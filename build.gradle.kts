@@ -40,6 +40,7 @@ subprojects {
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
         implementation("org.jetbrains.kotlin:kotlin-reflect")
         implementation("org.springframework.cloud:spring-cloud-starter-config")
+        implementation("org.springframework.kafka:spring-kafka")
         testImplementation("org.springframework.boot:spring-boot-starter-test")
     }
 
